@@ -34,3 +34,27 @@ func (a *App) Run(addr string) {
 		fmt.Println(err)
 	}
 }
+
+// initializeRoutes sets up the application's HTTP routes and handlers.
+func (a *App) initializeRoutes() {
+	// Define your application routes and handlers here
+	// Example:
+	// a.Router.HandleFunc("/posts", a.handleListPosts).Methods("GET")
+	// a.Router.HandleFunc("/posts/{id}", a.handleGetPost).Methods("GET")
+	// a.Router.HandleFunc("/posts", a.handleCreatePost).Methods("POST")
+	// ...
+}
+// Example route handlers:
+/*
+func (a *App) handleListPosts(w http.ResponseWriter, r *http.Request) {
+	// Handle listing posts
+}
+
+func (a *App) handleGetPost(w http.ResponseWriter, r *http.Request) {
+	// Handle getting a specific post
+}
+
+func (a *App) handleCreatePost(w http.ResponseWriter, r *http.Request) {
+	// Handle creating a new post
+}
+*/
