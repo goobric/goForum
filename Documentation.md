@@ -31,15 +31,15 @@ forumapp/
     ├── utils/
     |   ├── utils.go
     ├── tests/
-        ├── app_test.go
-        ├── database_test.go
+    |   ├── app_test.go
+    |   ├── database_test.go
     └── static/
         ├── index.html
         ├── app/
-            ├── login.js
-            ├── registration.js
+        |  ├── login.js
+        |   ├── registration.js
         ├── style/
-            ├── styles.css
+        |   ├── styles.css
         ├── img/
             ├── grp_discuss1-min.jpg
             ├── grp_discuss2.html
