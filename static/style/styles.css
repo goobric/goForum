@@ -2,41 +2,46 @@
 
 /* Basic styling (you can add more) */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    display: flex;
-    flex-direction: row-reverse; /* Places navigation on the right */
-}
-
-.header-image {
-    max-width: 50%; /* Adjust the width as needed */
-    height: auto;
-}
-
-.content {
-    flex-grow: 1;
-    padding: 20px;
-    box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* Navigation bar styles */
 nav {
-    position: fixed; /* Fixed position */
-    top: 0; /* Stick it to the top */
-    right: 0; /* Stick it to the right */
-    background-color: #007bff;
-    padding: 10px 0;
-    text-align: center;
-    display: flex; /* Display navigation items horizontally */
-    align-items: center; /* Vertically align navigation items */
+  position: fixed; /* Fixed position */
+  top: 0; /* Stick it to the top */
+  right: 0; /* Stick it to the right */
+  background-color: #007bff;
+  padding: 10px 0;
+  text-align: center;
+  display: flex; /* Display navigation items horizontally */
+  align-items: center; /* Vertically align navigation items */
 }
 
 nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 20px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.header-image {
+  width: 100vw; /* Adjust the width as needed */
+  overflow: hidden;
+}
+.header-image img {
+  width: 100vw;
+  height: auto;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content {
+  padding: 20px;
+  box-sizing: border-box;
 }

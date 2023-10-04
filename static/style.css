@@ -1,11 +1,48 @@
+/* static/style/styles.css */
+
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Arial, Arial, Helvetica, sans-serif;
   text-align: center;
+}
+
+/* navbar style */
+nav {
+  background-color: #007bff;
+  padding: 10px 0;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.header-image {
+  width: 100%;
+  overflow: hidden;
+}
+.header-image img {
+  width: 100%;
+  height: auto;
 }
 
 .container {
   max-width: 300px;
   margin: 0 auto;
   padding: 20px;
+  box-sizing: border-box;
 }
 
+.content {
+  padding: 20px;
+  box-sizing: border-box;
+}
