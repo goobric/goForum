@@ -19,15 +19,30 @@ The Go code is organised into packages and files with meaningful names. The foll
 ```
 forumapp/
     ├── main.go
-    ├── app/
-    │   ├── app.go
-    │   ├── auth.go
-    │   ├── database.go
-    │   ├── handlers.go
-    │   └── models.go
-    └── tests/
+    ├── handlers/
+    |   ├── login.go
+    |   ├── register.go
+    |   ├── dashboard.go
+    |   ├── logout.go
+    ├── sessions/
+    |   ├── session.go
+    ├── models/
+    |   ├── user.go
+    ├── utils/
+    |   ├── utils.go
+    ├── tests/
         ├── app_test.go
-        └── database_test.go
+        ├── database_test.go
+    └── static/
+        ├── index.html
+        ├── app/
+            ├── login.js
+            ├── registration.js
+        ├── style/
+            ├── styles.css
+        ├── img/
+            ├── grp_discuss1-min.jpg
+            ├── grp_discuss2.html
 ```
 
 ## Installation
