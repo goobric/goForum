@@ -12,8 +12,10 @@ This is a web forum application written in Go that allows users to communicate, 
 - [License](#license)
 
 ## Structure
+
 Package Structure
 The Go code is organised into packages and files with meaningful names. The following directories are used to group related functionality.
+
 ```
 forumapp/
     ├── main.go
@@ -60,4 +62,7 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+```
+
 ```

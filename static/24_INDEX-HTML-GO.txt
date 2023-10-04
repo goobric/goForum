@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="registration.html">Registration</a>
+        <a href="login.html">Login</a>
+    </nav>
+    <div class="container">
+        <img src="mock_image.jpg" alt="Mock Image" class="header-image">
+        <div class="content">
+            <h1>Welcome to Our Web Forum</h1>
+            <p>This is the home page of our web forum. You can navigate to the registration and login pages using the links in the navigation bar above.</p>
+        </div>
+    </div>
+</body>
+</html>
+

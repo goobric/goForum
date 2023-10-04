@@ -1,0 +1,21 @@
+<i class="fa-regular fa-thumbs-up" style="color: #9141ac;"></i>
+purple thumb-up
+<i class="fa-regular fa-thumbs-down" style="color: #9141ac;"></i>
+purple thumb-down
+<i class="fa-solid fa-code" style="color: #9141ac;"></i>
+code symbol
+<i class="fa-solid fa-code-branch" style="color: #9141ac;"></i>
+code-branch
+<i class="fa-solid fa-code-merge" style="color: #9141ac;"></i>
+code-merge
+<i class="fa-solid fa-diagram-project" style="color: #9141ac;"></i>
+project-diagram
+
+
+fontawesome icons
+
+button color
+#b197fc
+hover color #9141ac
+
+
